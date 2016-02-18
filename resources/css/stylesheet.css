@@ -1,13 +1,9 @@
-body {
-	font-family: "Roboto", sans-serif;
-}
-
 .navbar-toggle .navbar-default{
 	background-color:#f1c40f;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-	background-color: #3495db;
+	background-color: #0078ff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -15,9 +11,8 @@ body {
 }
 
 .navbar{
-	background-color:#1a1e25;
+	background-color:#151c26;
 	border-bottom:2px solid #f1c40f;
-	
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -25,7 +20,7 @@ body {
 }
 
 .navbar-default .navbar-brand {
-	color:#3495db;
+	color:#0078ff;
 }
 .navbar-default .navbar-nav>li>a:hover {
 	color:#ffffff;
@@ -36,44 +31,48 @@ body {
 	color:#ffffff;
 	transition: all 0.25s ease-in-out;
 }
+
+body {
+	font-family: "Roboto", sans-serif;
+    font-weight:300;
+    font-size:15px;
+}
+
+h1, h2, h3 {
+    font-weight:400;
+}
+
 #banner h1 {
 	line-height:100vh;
 	color:#ffffff;
 	text-shadow: 0px 0px 20px rgba(0,0,0,1);
-	font-weight:700;
-	font-size:60px;
+	font-size:55px;
 }
 #banner {
 	background-image:url("/resources/img/fancy_code.jpg");
-	background-position: fixed;
 	background-size: cover;
-	min-height:100vh;
+    background-attachment:fixed;
 }
 
 #about {
-	background-color:#1a1e25;
-	color:#ecf0f1;
+	background-color:#151c26;
+    background:#151c26;
+	color:white;
 }
-h2 {
-	color:#3495db;
+h2, h3 {
+    color:#f1c40f;
 }
 .caption p{
 	color:white;
 	text-decoration:none;
 }
 .thumbnail {
-	background-color: #1a1e25;
+	background-color: #151c26;
 	border:none;
 }
 .thumbnail:hover {
 	background-color: #303845;
 	transition: all 0.25s ease-in-out;
-}
-.thumbnail img:hover {
-	background-color:red;
-}
-.thumbnail h3{
-	color:#3498DB;
 }
 .thumb-link:hover {
 	text-decoration:none;
@@ -87,19 +86,18 @@ h2 {
 #portfolio {
 	padding-bottom:10px; 
 	background-image:url("/resources/img/book.jpg");
-	background-position:fixed;
+    background-attachment:fixed;
 	background-size:cover;
-	color:#ecf0f1;
 }
 #portfolio h2 {
-	text-shadow: 0px 0px 10px rgba(0,0,0,1);
+	text-shadow: 0px 0px 2px rgba(0,0,0,1);
 }
 #contact{
 	padding-bottom:20px;
-	background-color:#1a1e25;
+	background-color:#151c26;
 }
 #contact a {
-	color:#f1c40f;
+	color:#0078ff;
 }
 #contact a:hover {
 	color:white;
