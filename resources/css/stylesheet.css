@@ -1,0 +1,107 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.navbar-toggle .navbar-default{
+	background-color:#f1c40f;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #3495db;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f1c40f;
+}
+
+.navbar{
+	background-color:#1a1e25;
+	border-bottom:2px solid #f1c40f;
+	
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#f1c40f;
+}
+
+.navbar-default .navbar-brand {
+	color:#3495db;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color:#ffffff;
+	transition: all 0.25s ease-in-out;
+}
+
+.navbar-default .navbar-brand:hover {
+	color:#ffffff;
+	transition: all 0.25s ease-in-out;
+}
+#banner h1 {
+	line-height:100vh;
+	color:#ffffff;
+	text-shadow: 0px 0px 20px rgba(0,0,0,1);
+	font-weight:700;
+	font-size:60px;
+}
+#banner {
+	background-image:url("/resources/img/fancy_code.jpg");
+	background-position: fixed;
+	background-size: cover;
+	min-height:100vh;
+}
+
+#about {
+	background-color:#1a1e25;
+	color:#ecf0f1;
+}
+h2 {
+	color:#3495db;
+}
+.caption p{
+	color:white;
+	text-decoration:none;
+}
+.thumbnail {
+	background-color: #1a1e25;
+	border:none;
+}
+.thumbnail:hover {
+	background-color: #303845;
+	transition: all 0.25s ease-in-out;
+}
+.thumbnail img:hover {
+	background-color:red;
+}
+.thumbnail h3{
+	color:#3498DB;
+}
+.thumb-link:hover {
+	text-decoration:none;
+}
+.anchor {
+    display: block;
+    height: 52px; /*same height as header*/
+    margin-top: -52px; /*same height as header*/
+    visibility: hidden;
+}
+#portfolio {
+	padding-bottom:10px; 
+	background-image:url("/resources/img/book.jpg");
+	background-position:fixed;
+	background-size:cover;
+	color:#ecf0f1;
+}
+#portfolio h2 {
+	text-shadow: 0px 0px 10px rgba(0,0,0,1);
+}
+#contact{
+	padding-bottom:20px;
+	background-color:#1a1e25;
+}
+#contact a {
+	color:#f1c40f;
+}
+#contact a:hover {
+	color:white;
+	transition: all 0.25s ease-in-out;
+}
